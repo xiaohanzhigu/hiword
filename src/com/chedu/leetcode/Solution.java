@@ -32,7 +32,7 @@ public class Solution {
         }
 
         int[] newNums = new int[index];
-        System.arraycopy(nums,0,newNums,0,index);
+        //System.arraycopy(nums,0,newNums,0,index);
         return newNums;
     }
 }
